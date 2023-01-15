@@ -248,10 +248,10 @@ Section Some Facts Design
     border-radius: 8px;
 }
 
-.fact-info img {
+/* .fact-info img {
     width: 45px;
     height: 45px;
-}
+} */
 
 .fact-info h3 {
     color: #424242;
