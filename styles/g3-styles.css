@@ -34,7 +34,8 @@ header {
     gap: 45px;
 }
 
-.logo-title {
+.logo-title,
+.future-title {
     color: #131313;
     font-weight: 700;
     font-size: 45px;
@@ -97,7 +98,7 @@ main {
     margin-bottom: 130px;
 }
 
-.future-into {
+.future-intro {
     display: flex;
     align-items: center;
     gap: 70px;
@@ -135,4 +136,80 @@ main {
     font-weight: 400;
     font-size: 14px;
     margin-bottom: 32px;
+}
+
+/* -----------------------
+Section Future Description 
+-------------------------*/
+.future-description-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 130px;
+}
+
+.future-info-container {
+    width: 600px;
+    height: 800px;
+}
+
+.future-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+.future-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.future-info-box {
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.future-info-title {
+    color: #131313;
+    font-weight: 600px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.future-info-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.future-description-img {
+    margin-left: 50px;
+}
+
+.future-description-img img {
+    width: 550px;
+    height: 750px;
+}
+
+.future-btn {
+    width: 280px;
+    height: 160px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+    border: 1px solid;
+    border-radius: 8px;
+
+    margin-top: -250px;
+    margin-left: -50px;
+}
+
+#future-btn-experience {
+    font-weight: 500;
+    font-size: 25px;
 }
