@@ -36,7 +36,8 @@ header {
 
 .logo-title,
 .future-title,
-.facts-title {
+.facts-title,
+.sponsor-title {
     color: #131313;
     font-weight: 700;
     font-size: 45px;
@@ -62,7 +63,8 @@ header {
 }
 
 .banner-description,
-.facts-description {
+.facts-description,
+.sponsor-description {
     color: #727272;
     font-weight: 400;
     font-size: 16px;
@@ -95,12 +97,9 @@ main {
     padding: 0px 240px;
 }
 
-.section-future-intro {
+.future-intro {
     margin-top: 85px;
     margin-bottom: 130px;
-}
-
-.future-intro {
     display: flex;
     align-items: center;
     gap: 70px;
@@ -269,4 +268,47 @@ Section Some Facts Design
 .fact-info:hover {
     transition-duration: 1.5s;
     transform: rotate(45deg);
+}
+
+/* ------------
+Sponsors Design
+-------------- */
+
+.section-sponsors {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsor-title {
+    margin-bottom: 30px;
+}
+
+.sponsor-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsor-img img {
+    width: 120px;
+    filter: grayscale(100%);
+}
+
+/* -----------
+Footer Design 
+--------------*/
+
+.section-copyright {
+    margin-top: 120px;
+    width: 1040px;
+    margin-left: 240px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+}
+
+.section-copyright p {
+    padding: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 100px;
 }
