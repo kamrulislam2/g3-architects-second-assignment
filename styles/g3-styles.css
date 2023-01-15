@@ -1,6 +1,7 @@
 /* imported font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@300;400&display=swap');
 
+
 /* Main font family */
 * {
     margin: 0px;
@@ -37,7 +38,8 @@ header {
 .logo-title,
 .feature-title,
 .facts-title,
-.sponsor-title {
+.sponsor-title,
+.video-title {
     color: #131313;
     font-weight: 700;
     font-size: 45px;
@@ -270,6 +272,22 @@ Section Some Facts Design
     transform: rotate(45deg);
 }
 
+/*------------------------
+ Extra Bonus Section Design
+------------------------- */
+.section-video {
+    margin-bottom: 130px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-file {
+    border-radius: 8px;
+}
+
 /* ------------
 Sponsors Design
 -------------- */
@@ -281,6 +299,10 @@ Sponsors Design
 
 .sponsor-title {
     margin-bottom: 30px;
+}
+
+.sponsor-description {
+    padding: 0px 250px;
 }
 
 .sponsor-img {
@@ -369,12 +391,13 @@ Responsive Design For Mobile Device
 
     .feature-description-container {
         flex-direction: column;
-        row-gap: 170px;
+        gap: 170px;
         padding: 0px 30px;
     }
 
     .feature-info-container {
         width: 100%;
+        margin-bottom: 70px;
     }
 
     .feature-description-img {
@@ -384,36 +407,69 @@ Responsive Design For Mobile Device
     .feature-description-img img {
         width: 100%;
         height: 100%;
+        margin-bottom: 20px;
     }
 
     .feature-btn {
-        margin-top: 30px;
-        margin-left: 50px;
+        margin: auto;
     }
 
     /* Section Facts Design */
 
-    .section-facts-container{
+    .section-facts-container {
         padding: 0px 30px;
-        
+
     }
-    .facts-description{
+
+    .facts-description {
         width: 100%;
     }
-    .fact-info-container{
+
+    .fact-info-container {
         flex-direction: column;
         align-items: center;
         gap: 24px;
+    }
+
+    /* Section Video Design */
+
+    .section-video {
+        margin-bottom: 50px;
+        padding: 0px 30px;
+    }
+
+    .video-title {
+        text-align: center;
+    }
+
+    .video-file {
+        width: 100%;
     }
 
     /* Sponsor Design */
 
-    .section-sponsors{
+    .section-sponsors {
         padding: 0px 30px;
     }
-    .sponsor-img{
+
+    .sponsor-description {
+        padding: 0px;
+    }
+
+    .sponsor-img {
         flex-direction: column;
         gap: 24px;
         align-items: center;
+    }
+
+    /* Footer section design */
+
+    .section-copyright {
+        width: 100%;
+        margin: 100px 0px;
+    }
+
+    footer {
+        padding: 0px 30px;
     }
 }
