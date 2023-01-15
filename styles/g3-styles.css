@@ -276,9 +276,10 @@ Section Some Facts Design
  Extra Bonus Section Design
 ------------------------- */
 .section-video {
-    margin-bottom: 130px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     display: flex;
-    gap: 50px;
+    gap: 80px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -288,11 +289,16 @@ Section Some Facts Design
     border-radius: 8px;
 }
 
+hr{
+    border: 1px solid #FF900E;
+}
+
 /* ------------
 Sponsors Design
 -------------- */
 
 .section-sponsors {
+    margin-top: 130px;
     text-align: center;
     margin-bottom: 50px;
 }
