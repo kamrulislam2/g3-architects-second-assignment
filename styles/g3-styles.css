@@ -78,8 +78,61 @@ header {
     margin-bottom: 70px;
 }
 
-.banner-img img{
+.banner-img img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 45px;
+}
+
+/* ---------------------
+Section Future Introduction
+----------------------- */
+
+main {
+    padding: 0px 240px;
+}
+
+.section-future-intro {
+    margin-top: 85px;
+    margin-bottom: 130px;
+}
+
+.future-into {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.future-intro-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.future-intro-img img {
+    width: 260px;
+}
+
+.future-intro-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+#title-first-part {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+#title-last-part {
+    color: #FF900E;
+}
+
+.future-intro-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 32px;
 }
