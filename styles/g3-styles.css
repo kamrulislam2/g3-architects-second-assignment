@@ -35,7 +35,8 @@ header {
 }
 
 .logo-title,
-.future-title {
+.future-title,
+.facts-title {
     color: #131313;
     font-weight: 700;
     font-size: 45px;
@@ -60,7 +61,8 @@ header {
     margin-bottom: 32px;
 }
 
-.banner-description {
+.banner-description,
+.facts-description {
     color: #727272;
     font-weight: 400;
     font-size: 16px;
@@ -134,7 +136,7 @@ main {
 .future-intro-description {
     color: #727272;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 32px;
 }
 
@@ -196,7 +198,7 @@ Section Future Description
 }
 
 .future-btn {
-    width: 280px;
+    width: 250px;
     height: 160px;
     color: #FFFFFF;
     background-color: #FF900E;
@@ -205,11 +207,66 @@ Section Future Description
     border: 1px solid;
     border-radius: 8px;
 
-    margin-top: -250px;
+    margin-top: -150px;
     margin-left: -50px;
 }
 
 #future-btn-experience {
     font-weight: 500;
     font-size: 25px;
+}
+
+/* -----------------------
+Section Some Facts Design
+------------------------  */
+.section-facts-container {
+    margin-bottom: 180px;
+}
+
+.facts-title {
+    margin-bottom: 24px;
+}
+
+.facts-description {
+    width: 49%;
+    margin-bottom: 100px;
+}
+
+.fact-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.fact-info img {
+    width: 45px;
+    height: 45px;
+}
+
+.fact-info h3 {
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.fact-info p {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.fact-info:hover {
+    transition-duration: 1.5s;
+    transform: rotate(45deg);
 }
